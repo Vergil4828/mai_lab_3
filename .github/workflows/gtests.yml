@@ -2,7 +2,9 @@ name: CI GTEST
 
 on: [push, pull_request]
 
-
 jobs:
   call-shared-workflow:
     uses: Vergil4828/MAI_LABS_OOP/.github/workflows/gtests.yml@master
+    permissions:
+      contents: read
+      checks: write
