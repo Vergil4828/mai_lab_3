@@ -2,9 +2,6 @@ name: CI GTEST
 
 on: [push, pull_request]
 
-permissions:
-  checks: write
-  contents: read
 
 jobs:
   call-shared-workflow:
