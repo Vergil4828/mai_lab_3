@@ -24,6 +24,5 @@ public:
 
 
 
-private:
-    double width_bottom, width_top,height;
+
 };
