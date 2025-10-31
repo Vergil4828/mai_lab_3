@@ -21,6 +21,5 @@ public:
     void add(std::istream& is) override;
 
 
-private:
-    double side, height;
+
 };
